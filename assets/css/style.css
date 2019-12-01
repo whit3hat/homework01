@@ -26,15 +26,13 @@ h1 {
     color: #4aaaa5;
 }
 
-/*#body {
- background-color: #ffffff;
- border-color: #dddddd;
-} */
-
 
 footer {
     background-color: #666666;
     text-align: center;
+    border-top: 8px solid #4aaaa5;
+    margin: 0 auto;
+    width: auto;
 }
 
 .about {
@@ -44,7 +42,6 @@ footer {
 
 .aboutcontent {
     padding: 5px;
-    
     border: #dddddd;
 }
 
@@ -52,15 +49,16 @@ footer {
 .content {
     width: 960px;
     min-height: 100%;
-    margin: 0 auto;
+    margin: 0 auto -50px;
     background: #ffffff;
-    margin-bottom: -50px;
 }
 
 .footer,
 .push {
-    border-top: 8px solid #4aaaa5;
     height: 50px;
-    margin: 0 auto;
-    width: auto;
+}
+
+.portfolioimg{
+    width: 200px;
+    height: 200px;
 }
