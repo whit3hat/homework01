@@ -37,21 +37,22 @@ header {
 h1 {
     color: #4aaaa5;
 }
-
+/* CSS for Image on About Page */
 .about {
     float:left;
     margin-right: 5px;
 }
-
+/* CSS for content on about page */
 .aboutcontent {
     padding: 5px;
     border: #dddddd;
 }
-
+/* wrapper CSS for content on page minus header/footer */
 .wrapper {
      min-height: 100%;
     margin-bottom: -58px;
 }
+/* Content section center of page */
 .content {
     width: 960px;
    
@@ -67,16 +68,21 @@ h1 {
 }
 /* Footer and Content */
 
+/* Divider */
 hr {
     width:900px;
 }
+
+/*
 .banner {
     width:200px;
     height:50px;
     background-color:blue;
     color:white;
     text-align:center;
-}
+} */
+
+/* Footer and spacing */
 .footer,
 .push {
     height: 50px;
@@ -113,10 +119,14 @@ a:link {
     color: #777777;
 }
 
+a:visited{
+    color: purple;
+}
+
 a:hover{
     color: black;
 }
 
-a:visited{
-    color: purple;
+a:active{
+    color:hotpink;
 }
