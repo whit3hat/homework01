@@ -18,6 +18,12 @@ header {
     border-bottom: 2px solid #cccccc;
 }
 
+.name{
+    color:white;
+    font-size: 30px;
+    margin-top: 22px;
+}
+
 .links {
     float: right;
     margin-right: 100px;
