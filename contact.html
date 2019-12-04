@@ -2,40 +2,38 @@
 <html>
 
     <head>
-        <title>Student Portfolio</title>
+        <title>Contact Info</title>
 
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">    
     </head>
     <body>
+        <div class="wrapper">
         <header>
-            <p>Spencer Wood</p>
-            <form>
-                <input type="button" value="About" onclick="window.location.href='./index.html'"/>
-                <input type="button" value="Portfolio" onclick="window.location.href='./portfolio.html'"/>
-                <input type="button" value="contact" onclick="window.location.href='./contact.html'"/>
-            </form>
-            
+            <div class="studentname"></div>
+            <div class="links">
+                    <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+                 </div>
+    
         </header>
-        <h1>Contact</h1>
-        
-        <div>
-          <label>Name:</label>
-          <input type="text" value="John Doe">
+        <div class="content">
+            <h1>Contact</h1>
+                    <hr>
+                         <label>Name:</label>
+                        <input type="text" value="John Doe"><br>
           
-          <label>Email:</label>
-          <input type="text" value="example@gmail.com">
+                        <label>Email:</label>
+                        <input type="text" value="example@gmail.com"><br>
 
-          <label>Message:</label>
-          <textarea rows="10" cols="50">
+                         <label>Message:</label>
+                            <textarea rows="10" cols="50">
 
-            
-          </textarea>
+                                 </textarea>
         
 
-
-        </div>
-
-        <footer>
+                <div class="push"></div>
+                 </div>
+</div>
+        <footer class="footer">
             Copyright &copy;
         </footer>
     </body>

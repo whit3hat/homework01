@@ -7,6 +7,7 @@ html, body {
     background: url(../images/folk-pattern.png);
 }
 
+/* Header Info */
 header {
     background-color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -17,30 +18,24 @@ header {
     border-bottom: 2px solid #cccccc;
 }
 
-/*#titlebox{
-    box-sizing: border-box;
-    width: 250px;
-    height: 85px;
-    border: #4aaaa5;
-    fill: #4aaaa5;
-    
-}*/
 .links {
     float: right;
+    margin-right: 100px;
+    margin-top: 30px;
 }
 
+/* Colored Box for Name */
+.studentname {
+    width: 200px;
+    height: 85px;
+    background-color: #4aaaa5;
+    margin-left: 370px;
+    position: fixed;
+}
 
+/* Body Content */
 h1 {
     color: #4aaaa5;
-}
-
-
-footer {
-    background-color: #666666;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    margin: 0 auto;
-    width: auto;
 }
 
 .about {
@@ -53,19 +48,47 @@ footer {
     border: #dddddd;
 }
 
-
+.wrapper {
+     min-height: 100%;
+    margin-bottom: -58px;
+}
 .content {
     width: 960px;
-    min-height: 100%;
-    margin: 0 auto -50px;
+   
+    margin: 0 auto;
     background: #ffffff;
 }
 
+.content-portfolio {
+    width: 960px;
+    height: 728px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+/* Footer and Content */
+
+hr {
+    width:900px;
+}
+.banner {
+    width:200px;
+    height:50px;
+    background-color:blue;
+    color:white;
+    text-align:center;
+}
 .footer,
 .push {
     height: 50px;
 }
 
+footer {
+    background-color: #666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    margin: 0 auto;
+    width: auto;
+}
 
 /* Portfolio CSS */
 
@@ -82,4 +105,18 @@ footer {
 #img2 {
     float: left;
     clear: left;
+}
+
+/* CSS for Links in Header */
+
+a:link {
+    color: #777777;
+}
+
+a:hover{
+    color: black;
+}
+
+a:visited{
+    color: purple;
 }
